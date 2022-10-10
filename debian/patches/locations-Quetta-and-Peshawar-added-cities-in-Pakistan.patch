@@ -1,0 +1,47 @@
+From: XaFaK <sanzarfarooq01@gmail.com>
+Date: Sun, 13 Dec 2020 23:57:32 +0000
+Subject: locations: Quetta and Peshawar added (cities in Pakistan)
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/2cacc7e6
+---
+ data/Locations.xml | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index 660ac67..24182e4 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -5518,6 +5518,16 @@
+         <code>OPNH</code>
+         <coordinates>26.250000 68.366667</coordinates>
+       </location>
++      <location>
++        <name>Quetta</name>
++        <code>OPQT</code>
++        <coordinates>30.208595 67.007584</coordinates>
++      </location>
++      <location>
++        <name>Peshawar</name>
++        <code>OPPS</code>
++        <coordinates>33.977498 71.425041</coordinates>
++      </location>
+       <city>
+         <!-- The capital of Pakistan -->
+         <_name>Islamabad</_name>
+@@ -5538,6 +5548,16 @@
+         <_name>Nawabshah</_name>
+         <coordinates>26.250000 68.416667</coordinates>
+       </city>
++      <city>
++        <!-- A city in Pakistan (Balochistan Capital) -->
++        <_name>Quetta</_name>
++        <coordinates>30.208595 67.007584</coordinates>
++      </city>
++      <city>
++        <!-- A city in Pakistan (KPK Capital) -->
++        <_name>Peshawar</_name>
++        <coordinates>33.977498 71.425041</coordinates>
++      </city>
+     </country>
+     <country>
+       <!-- PH - Philippines -->

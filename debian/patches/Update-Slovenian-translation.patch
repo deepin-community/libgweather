@@ -1,0 +1,114 @@
+From: =?utf-8?q?Matej_Urban=C4=8Di=C4=8D?= <mateju@src.gnome.org>
+Date: Tue, 4 May 2021 17:40:56 +0000
+Subject: Update Slovenian translation
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/aacf8d8d
+---
+ po-locations/sl.po | 40 +++++++++++++++++++++++++++-------------
+ 1 file changed, 27 insertions(+), 13 deletions(-)
+
+diff --git a/po-locations/sl.po b/po-locations/sl.po
+index 8826216..e72ed84 100644
+--- a/po-locations/sl.po
++++ b/po-locations/sl.po
+@@ -1,19 +1,19 @@
+-#'libgweather/po-locations
++# 'libgweather/po-locations
+ # Slovenian translations for libgweather-locations.
+ # Copyright (C) 2005-2006 Free Software Foundation, Inc.
+ # This file is distributed under the same license as the libgweather-locations package.
+ #
+ # Matic Žgur <mr.zgur@gmail.com>, 2006.
+ # Matjaž Horvat <m@owca.info>, 2006.
+-# Matej Urbančič <mateju@svn.gnome.org>, 2005–2020.
++# Matej Urbančič <mateju@src.gnome.org>, 2005–2020.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: libgweather-locations master\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2020-08-19 05:33+0000\n"
+-"PO-Revision-Date: 2020-08-19 21:17+0200\n"
+-"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
++"POT-Creation-Date: 2021-05-02 13:54+0000\n"
++"PO-Revision-Date: 2021-05-04 19:39+0200\n"
++"Last-Translator: Matej Urbančič <mateju@src.gnome.org>\n"
+ "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+ "Language: sl_SI\n"
+ "MIME-Version: 1.0\n"
+@@ -22,7 +22,7 @@ msgstr ""
+ "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+ "%100==4 ? 3 : 0);\n"
+ "X-Poedit-SourceCharset: utf-8\n"
+-"X-Generator: Poedit 2.3\n"
++"X-Generator: Poedit 2.4.2\n"
+ 
+ #. TRANSLATORS: This is the designation for the last (most west) timezone on Earth
+ #. https://en.wikipedia.org/wiki/Anywhere_on_Earth
+@@ -3066,6 +3066,11 @@ msgstr "San Fernando"
+ msgid "San Salvador de Jujuy"
+ msgstr "San Salvador de Jujuy"
+ 
++#. A city in Argentina
++#. A city in New Mexico in the United States
++msgid "Santa Fe"
++msgstr "Santa Fe"
++
+ #. A city in Argentina
+ msgid "Ushuaia"
+ msgstr "Ushuaia"
+@@ -9956,10 +9961,22 @@ msgstr "Karači"
+ msgid "Lahore"
+ msgstr "Lahore"
+ 
++#. A city in Pakistan
++msgid "Multan"
++msgstr "Multan"
++
+ #. A city in Pakistan
+ msgid "Nawabshah"
+ msgstr "Nawabshah"
+ 
++#. A city in Pakistan (KPK Capital)
++msgid "Peshawar"
++msgstr "Peshawar"
++
++#. A city in Pakistan (Balochistan Capital)
++msgid "Quetta"
++msgstr "Quetta"
++
+ #. The capital of Palau
+ msgid "Koror"
+ msgstr "Koror"
+@@ -14983,6 +15000,10 @@ msgstr "Haines"
+ msgid "Haleyville"
+ msgstr "Haleyville"
+ 
++msgctxt "City in California, United States"
++msgid "Half Moon Bay"
++msgstr "Zaliv Half Moon"
++
+ #. A city in Minnesota in the United States
+ msgid "Hallock"
+ msgstr "Hallock"
+@@ -18007,10 +18028,6 @@ msgctxt "City in Utah, United States"
+ msgid "Santa Clara"
+ msgstr "Santa Clara"
+ 
+-#. A city in New Mexico in the United States
+-msgid "Santa Fe"
+-msgstr "Santa Fe"
+-
+ #. A city in California in the United States
+ msgctxt "City in California, United States"
+ msgid "Santa Maria"
+@@ -23427,9 +23444,6 @@ msgstr "Mariehamn"
+ #~ msgid "Perry-Foley"
+ #~ msgstr "Perry-Foley"
+ 
+-#~ msgid "Peshawar"
+-#~ msgstr "Peshawar"
+-
+ #~ msgid "Petropavlovsk-Kamchatsky"
+ #~ msgstr "Petropavlovsk-Kamčatski"
+ 

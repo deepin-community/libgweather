@@ -1,0 +1,37 @@
+From: Wasif Laeeq <wasif@destring.com>
+Date: Thu, 9 Apr 2020 07:40:42 +0500
+Subject: locations: Add city Multan, Pakistan and Multan Airport
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/19a7d7ed
+---
+ data/Locations.xml | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index 84269ed..4e6eb1a 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -5512,6 +5512,11 @@
+         <name>Lahore Airport</name>
+         <code>OPLA</code>
+         <coordinates>31.516667 74.400000</coordinates>
++      </location>
++       <location>
++        <name>Multan Airport</name>
++        <code>OPMT</code>
++        <coordinates>30.196025 71.421771</coordinates>
+       </location>
+       <location>
+         <name>Nawabshah</name>
+@@ -5543,6 +5548,11 @@
+         <_name>Lahore</_name>
+         <coordinates>31.549722 74.343611</coordinates>
+       </city>
++      <city>
++        <!-- A city in Pakistan -->
++        <_name>Multan</_name>
++        <coordinates>30.1575 71.5249</coordinates>
++      </city>
+       <city>
+         <!-- A city in Pakistan -->
+         <_name>Nawabshah</_name>

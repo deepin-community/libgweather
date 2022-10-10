@@ -1,0 +1,25 @@
+From: Matthew Stedman <matt@stedman.net.au>
+Date: Sun, 10 Jan 2021 17:26:24 +0800
+Subject: Added Albany Airport, Western Australia (YABA)
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/21cfcd16
+---
+ data/Locations.xml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index e55d3f8..660ac67 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -6998,6 +6998,11 @@
+         <_name>Western Australia</_name>
+         <fips-code>AS08</fips-code>
+         <tz-hint>Australia/Perth</tz-hint>
++        <location>
++          <name>Albany Airport</name>
++          <code>YABA</code>
++          <coordinates>-34.944862 117.804041</coordinates>
++        </location>
+         <location>
+           <name>Broome Airport</name>
+           <code>YBRM</code>

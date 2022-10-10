@@ -1,0 +1,42 @@
+From: Henry Finucane <h.finucane@gmail.com>
+Date: Sun, 6 Sep 2020 21:10:22 -0700
+Subject: Add Half Moon Bay for a coastal Bay Area reference
+
+It's a little city, but it's a popular weekend tourist destination to
+cool off, and the local public radio stations will generally lead off
+with the weather there, as a reasonable indicator of "what is the
+weather like on the coast".
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/2140fb24
+---
+ data/Locations.xml | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index 24182e4..84269ed 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -31214,6 +31214,12 @@
+           <radar>sfo</radar>
+           <coordinates>37.516667 -122.250000</coordinates>
+         </location>
++        <location>
++          <name>Half Moon Bay Airport</name>
++          <code>KHAF</code>
++          <zone>CAZ509</zone>
++          <coordinates>37.513528 -122.495426</coordinates>
++        </location>
+         <location>
+           <name>San Diego International-Lindbergh Field</name>
+           <code>KSAN</code>
+@@ -31812,6 +31818,10 @@
+           <_name>San Carlos</_name>
+           <coordinates>37.507159 -122.260522</coordinates>
+         </city>
++        <city>
++          <_name msgctxt="City in California, United States">Half Moon Bay</_name>
++          <coordinates>37.463552 -122.428586</coordinates>
++        </city>
+         <city>
+           <!-- A city in California in the United States -->
+           <_name>San Diego</_name>

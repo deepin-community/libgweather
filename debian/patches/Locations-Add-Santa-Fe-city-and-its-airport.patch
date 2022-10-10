@@ -1,0 +1,43 @@
+From: =?utf-8?q?Manuel_Qui=C3=B1ones?= <manuel.por.aca@gmail.com>
+Date: Mon, 5 Apr 2021 20:22:19 -0300
+Subject: Locations: Add Santa Fe city and its airport
+
+Santa Fe is a city with more than 400 thousand inhabitants.
+
+Coordinates and ICAO code taken from Wikipedia:
+- https://en.wikipedia.org/wiki/Santa_Fe,_Argentina
+- https://en.wikipedia.org/wiki/Sauce_Viejo_Airport
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/1b299c81
+---
+ data/Locations.xml | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index c47f0b9..e55d3f8 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -8026,6 +8026,11 @@
+         <code>SASJ</code>
+         <coordinates>-24.383333 -65.083333</coordinates>
+       </location>
++      <location>
++        <name>Sauce Viejo Airport</name>
++        <code>SAAV</code>
++        <coordinates>-31.711111 -60.811111</coordinates>
++      </location>
+       <location>
+         <name>Ushuaia Airport</name>
+         <code>SAWH</code>
+@@ -8141,6 +8146,11 @@
+         <_name>San Salvador de Jujuy</_name>
+         <coordinates>-24.183333 -65.300000</coordinates>
+       </city>
++      <city>
++        <!-- A city in Argentina -->
++        <_name>Santa Fe</_name>
++        <coordinates>-31.633333 -60.700000</coordinates>
++      </city>
+       <city>
+         <!-- A city in Argentina -->
+         <_name>Ushuaia</_name>

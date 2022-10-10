@@ -1,0 +1,90 @@
+From: Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Date: Mon, 26 Apr 2021 11:25:06 +0000
+Subject: Update Indonesian translation
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/51e42bc5
+---
+ po-locations/id.po | 31 ++++++++++++++++++++++++-------
+ 1 file changed, 24 insertions(+), 7 deletions(-)
+
+diff --git a/po-locations/id.po b/po-locations/id.po
+index b182356..7787246 100644
+--- a/po-locations/id.po
++++ b/po-locations/id.po
+@@ -11,8 +11,8 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: libgweather locations master\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2020-06-25 14:50+0000\n"
+-"PO-Revision-Date: 2020-07-10 19:34+0700\n"
++"POT-Creation-Date: 2021-04-26 00:57+0000\n"
++"PO-Revision-Date: 2021-04-26 18:24+0700\n"
+ "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
+ "Language-Team: Indonesian <gnome@i15n.org>\n"
+ "Language: id\n"
+@@ -20,7 +20,7 @@ msgstr ""
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Poedit-SourceCharset: UTF-8\n"
+-"X-Generator: Poedit 2.3.1\n"
++"X-Generator: Poedit 2.4.2\n"
+ 
+ #. TRANSLATORS: This is the designation for the last (most west) timezone on Earth
+ #. https://en.wikipedia.org/wiki/Anywhere_on_Earth
+@@ -3065,6 +3065,11 @@ msgstr "San Fernando"
+ msgid "San Salvador de Jujuy"
+ msgstr "San Salvador de Jujuy"
+ 
++#. A city in Argentina
++#. A city in New Mexico in the United States
++msgid "Santa Fe"
++msgstr "Santa Fe"
++
+ #. A city in Argentina
+ msgid "Ushuaia"
+ msgstr "Ushuaia"
+@@ -9955,10 +9960,22 @@ msgstr "Karachi"
+ msgid "Lahore"
+ msgstr "Lahore"
+ 
++#. A city in Pakistan
++msgid "Multan"
++msgstr "Multan"
++
+ #. A city in Pakistan
+ msgid "Nawabshah"
+ msgstr "Nawabshah"
+ 
++#. A city in Pakistan (KPK Capital)
++msgid "Peshawar"
++msgstr "Peshawar"
++
++#. A city in Pakistan (Balochistan Capital)
++msgid "Quetta"
++msgstr "Quetta"
++
+ #. The capital of Palau
+ msgid "Koror"
+ msgstr "Koror"
+@@ -14982,6 +14999,10 @@ msgstr "Haines"
+ msgid "Haleyville"
+ msgstr "Haleyville"
+ 
++msgctxt "City in California, United States"
++msgid "Half Moon Bay"
++msgstr "Teluk Half Moon"
++
+ #. A city in Minnesota in the United States
+ msgid "Hallock"
+ msgstr "Hallock"
+@@ -18006,10 +18027,6 @@ msgctxt "City in Utah, United States"
+ msgid "Santa Clara"
+ msgstr "Santa Clara"
+ 
+-#. A city in New Mexico in the United States
+-msgid "Santa Fe"
+-msgstr "Santa Fe"
+-
+ #. A city in California in the United States
+ msgctxt "City in California, United States"
+ msgid "Santa Maria"

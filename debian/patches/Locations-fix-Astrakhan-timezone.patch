@@ -1,0 +1,60 @@
+From: crazzymad777 <aerobus.778@gmail.com>
+Date: Sun, 25 Apr 2021 22:13:09 +0000
+Subject: Locations: fix Astrakhan' timezone
+
+issue #83
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/55df8483
+---
+ data/Locations.xml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index f6219f5..c47f0b9 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -18496,7 +18496,7 @@
+           -->
+         <_name>Astrakhan'</_name>
+         <coordinates>46.349444 48.049167</coordinates>
+-        <tz-hint>Europe/Moscow</tz-hint>
++        <tz-hint>Europe/Samara</tz-hint>
+       </city>
+       <city>
+         <!-- A city in Russia.
+@@ -18576,7 +18576,7 @@
+           -->
+         <_name>Izhevsk</_name>
+         <coordinates>56.833333 53.183333</coordinates>
+-        <tz-hint>Europe/Moscow</tz-hint>
++        <tz-hint>Europe/Samara</tz-hint>
+       </city>
+       <city>
+         <!-- A city in Russia.
+@@ -18783,7 +18783,7 @@
+         <!-- A city in Russia -->
+         <_name>Saratov</_name>
+         <coordinates>51.540556 46.008611</coordinates>
+-        <tz-hint>Europe/Moscow</tz-hint>
++        <tz-hint>Europe/Samara</tz-hint>
+       </city>
+       <city>
+         <!-- A city in Russia.
+@@ -18849,7 +18849,7 @@
+         <!-- A city in Russia -->
+         <_name>Ul'yanovsk</_name>
+         <coordinates>54.316944 48.366111</coordinates>
+-        <tz-hint>Europe/Moscow</tz-hint>
++        <tz-hint>Europe/Samara</tz-hint>
+       </city>
+       <city>
+         <!-- A city in Russia -->
+@@ -18911,7 +18911,7 @@
+         <!-- A city in Russia -->
+         <_name>Yuzhno-Sakhalinsk</_name>
+         <coordinates>46.958116 142.733665</coordinates>
+-        <tz-hint>Asia/Vladivostok</tz-hint>
++        <tz-hint>Asia/Magadan</tz-hint>
+       </city>
+     </country>
+     <country>

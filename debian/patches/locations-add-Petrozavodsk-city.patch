@@ -1,0 +1,28 @@
+From: Vladislav Grigoryev <vg.aetera@gmail.com>
+Date: Fri, 7 May 2021 03:52:16 +0000
+Subject: locations: add Petrozavodsk city Petrozavodsk is the capital city of
+ the Republic of Karelia, Russia,
+ with population ~280 thousand. * https://en.wikipedia.org/wiki/Petrozavodsk
+ * https://en.wikipedia.org/wiki/Petrozavodsk_Airport
+
+Origin: https://gitlab.gnome.org/GNOME/libgweather/-/commit/dda8dff2
+---
+ data/Locations.xml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/data/Locations.xml b/data/Locations.xml
+index 4e6eb1a..e75d242 100644
+--- a/data/Locations.xml
++++ b/data/Locations.xml
+@@ -18385,6 +18385,11 @@
+         <code>UHPP</code>
+         <coordinates>53.083333 158.583333</coordinates>
+       </location>
++      <location>
++        <name>Petrozavodsk</name>
++        <code>ULPB</code>
++        <coordinates>61.783333 34.333333</coordinates>
++      </location>
+       <location>
+         <name>Rostov</name>
+         <code>URRR</code>
